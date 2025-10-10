@@ -12,6 +12,8 @@ ver2:
 https://github.com/user-attachments/assets/100ab683-73d1-45b8-8828-dfad39e346c2
 
 
+
+
 ver3:
 
 사격행동에 오류가 있어서 그런지 학습이 잘안되는 것 같고, 
