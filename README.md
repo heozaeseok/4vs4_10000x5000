@@ -20,14 +20,24 @@ ver3:
 
 현재 obs구조는 자신의 위치와 hp, 아군의 위치와 hp, 상대의 위치와 탐지여부로 구성되어있는데, 위치를 정규화할 때, 맵중심과 크기를 기준으로 정규화하는게 아닌 자신의 위치와 사거리로 정규화 하는 것을 생각하게됨.
 
+
 그리고 모델의 인코더 수도 현재 obs에 비해 과하다고 생각되서 obs는 그대로 두고 다시 학습 후 판단할 예정.
 
-<img width="481" height="355" alt="image" src="https://github.com/user-attachments/assets/d6386906-11ed-417b-92f0-d5e62331be00" />
-<img width="474" height="349" alt="image" src="https://github.com/user-attachments/assets/19b2107e-89f5-49aa-b751-20dba1c04047" />
-<img width="469" height="341" alt="image" src="https://github.com/user-attachments/assets/b76d27e0-a616-4c47-9741-8ffbbdb6bca5" />
-<img width="467" height="346" alt="image" src="https://github.com/user-attachments/assets/8be212ca-a1bb-4d14-9646-ac5ac8679df2" />
 
 https://github.com/user-attachments/assets/9cb60344-e1e5-4c43-8252-3df585592fe3
+
+
+ver4:
+
+
+흠 뒤로 갔다가 앞으로 돌격하면서 쏘는 행동을 보임. 아마 상대가 직선으로 오는걸 감안해서 대각선으로 간 뒤에 사거리차이를 이용해서 하나하나씩 처치하는게 학습된것같음.
+
+
+https://github.com/user-attachments/assets/f8d67d67-eb9f-4607-b0e5-389ad9ece29f
+
+
+https://github.com/user-attachments/assets/2856a618-52d7-4d1c-88b1-4ee70c0b3ac6
+
 
 
 
