@@ -39,6 +39,13 @@ https://github.com/user-attachments/assets/f8d67d67-eb9f-4607-b0e5-389ad9ece29f
 https://github.com/user-attachments/assets/2856a618-52d7-4d1c-88b1-4ee70c0b3ac6
 
 
+ver5:
+
+
+이번엔 obs를 [ 자신의 절대좌표값, 아군의 상대좌표값(가까운순) / 탐지거리 , 상대의 상대좌표값(고정된배열) / 탐지거리]로 수정해서 학습함
+
+이전 버전과 마찬가지로 뒤로 물러서서 상대를 기다렸다가 다가와서 사거리 안에 들어왔을때 사격하는 모습을 보임
+
 
 
 
